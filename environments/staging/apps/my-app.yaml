@@ -8,7 +8,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/antonputra/lesson-158.git
+    repoURL: https://github.com/ad-it/argocd.git
     targetRevision: HEAD
     path: environments/staging/app
   destination:
