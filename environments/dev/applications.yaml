@@ -2,12 +2,12 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: test-app
-  namespace: web
+  namespace: argocd
   finalizers:
     - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
-    namespace: web
+    namespace: argocd
     server: ssh://git@github.com:ad-it/gitops.git
   project: default
   source:
