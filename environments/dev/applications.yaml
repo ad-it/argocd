@@ -8,8 +8,8 @@ metadata:
 spec:
   destination:
     namespace: web
-    server: https://kubernetes.default.svc
-  project: test-proj
+    server: ssh://git@github.com:ad-it/gitops.git
+  project: default
   source:
     #path: argocd/manifests/kafka
     repoURL: https://github.com/ad-it/gitops
