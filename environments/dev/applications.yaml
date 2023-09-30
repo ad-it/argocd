@@ -12,7 +12,7 @@ spec:
   project: test-proj
   source:
     #path: argocd/manifests/kafka
-    repoURL: https://github.com/ad-it/argocd
+    repoURL: https://github.com/ad-it/gitops
     targetRevision: HEAD
   syncPolicy:
     automated:
